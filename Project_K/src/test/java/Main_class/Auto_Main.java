@@ -11,7 +11,7 @@ public class Auto_Main {
 		try {
 			driver.get(s);
 			driver.manage().window().maximize();
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -20,7 +20,7 @@ public class Auto_Main {
 
 	public static void click(String s) throws InterruptedException {
 		driver.findElement(By.xpath(s)).click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 	}
 
 	public static void close() throws InterruptedException {
